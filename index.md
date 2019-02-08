@@ -1,6 +1,6 @@
 ---
-title: "Coming Soon to a Neighborhood Near You?"
-subtitle: "Off-Campus Recruiting by Public Research Universities"
+title: "Diamonds or Diamonds in the Rough"
+subtitle: "Using Data Science to Study Off-Campus Recruiting by Public Research Universities"
 author: Ozan Jaquette
 # lib_cdn: "https://cdn.rawgit.com/ramnathv/slidifyLibraries/master/inst/libraries"
 mode: selfcontained
