@@ -1,0 +1,187 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Source+Code+Pro:500|Open+Sans:300,400,600,700|Oswald);
+
+/* Main */
+
+body {
+  font-family: 'Open Sans','Helvetica', 'Crimson Text', 'Garamond', 'Palatino', sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.9em;
+  color: #444;
+  background-color: whitesmoke;
+}
+
+.reveal .slides {
+  text-align: left;
+}
+
+.reveal strong {
+  font-weight: 700;
+  color: #111;
+}
+
+.reveal em {
+  font-style: italic;
+}
+
+.reveal section img {
+  display: block;
+  margin: 5px auto;
+}
+
+.reveal hr {
+  transform: translateY(20px);
+  background-color: #AA0000;
+  height: 1px;
+  border: 0;
+}
+
+.reveal .slide h1 {
+  font-family: Times, serif;
+  color: #AA0000;
+  font-weight: 700;
+  letter-spacing: -2px;
+  font-size: 50px;
+  margin: 10px 0 30px;
+}
+
+.reveal .slide h2 {
+  color: #000;
+  letter-spacing: -2px;
+  font-size: 30px;
+  margin: -35px 0 35px;
+  font-weight: 300;
+}
+
+.reveal p {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Lists */
+
+#univ_options {
+  columns: 2;
+  margin: 10px 0 0 25px;
+}
+
+.reveal ul, .reveal ol {
+  padding: 0;
+  margin-left: 3em;
+  font-weight: 400;
+}
+
+/*
+.left > ul, .right > ul {
+  margin-left: 25px;
+}
+*/
+
+.reveal ul li {
+  list-style-type: circle;
+}
+
+.reveal ol li {
+  list-style-type: decimal;
+}
+
+.reveal ul ul li {
+  list-style-type: none;
+}
+
+.reveal ul ul li:before {
+  content: '-';
+  font-weight: 400;
+  margin-left: -1em;
+  position: absolute;
+}
+
+.reveal ul ul ul li:before {
+  content: '\00B7';
+}
+
+/* Tables */
+
+.table-wrapper {
+  height: 500px;
+}
+
+.reveal table {
+  font-size: 18px;
+  width: 100%;
+  text-align: right;
+  line-height: 1em;
+}
+
+.reveal table tbody {
+  font-size: 17px;
+}
+
+.reveal table thead td {
+  text-decoration: underline;
+  padding-bottom: 20px;
+  vertical-align: middle;
+}
+
+.reveal table tr td:nth-of-type(1),
+.reveal table tr td:nth-of-type(2) {
+  text-align: left;
+}
+
+.reveal td {
+    padding: 6px 0;
+}
+
+/* Links */
+
+.reveal a {
+  cursor: pointer;
+  color: #0000EE;
+  transition: color 0.1s;
+  text-decoration: none;
+}
+
+.reveal a:hover {
+  text-decoration: underline;
+}
+
+.reveal .btn {
+  top: 10px;
+  border: #AA0000 1.5px dashed;
+  color: #AA0000;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 6px;
+}
+
+.reveal .btn:hover {
+  border: gray 1.5px solid;
+  color: gray;
+  text-decoration: none;
+}
+
+/* Text */
+
+.reveal span.univ-name {
+  float: right;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  margin: 10px 0;
+  color: #444;
+}
+
+.reveal .logo {
+  float: right;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 5px 0;
+}
+
+/* PDF */
+
+@media print {
+  .backgrounds {
+    background-color: whitesmoke;
+  }
+}
