@@ -52,9 +52,9 @@ This research was made possible by funding from the following sources:
 ## The problem with policy discourse about college access
 
 The 2014 White House "Access Summit" 
-- The White House (2014a) review of causes of unequal college access
+- The White House (2014) review of causes of unequal college access
     - Highlights "achievement gap", "under-matching"
-- *Commitments to Action on College Opportunity*  (The White House, 2014b)
+- *Commitments to Action on College Opportunity*  (The White House, 2014)
     - Universities pledge "action plans" (e.g., holistic admission, need-based aid, "outreach")
 
 Problem with policy discourse
@@ -336,6 +336,35 @@ order by 2;
 <li><a data-univ-id="199193" data-univ-name="North Carolina State University" data-state-name="North Carolina" data-metro1-name="Raleigh, NC" data-metro2-name="New York-Newark-Jersey City, NY-NJ-PA" data-metro3-name="Washington-Arlington-Alexandria, DC-VA-MD-WV">North Carolina State University</a> (N=649)</li><li><a data-univ-id="186380" data-univ-name="Rutgers University-New Brunswick" data-state-name="New Jersey" data-metro1-name="New York-Newark-Jersey City, NY-NJ-PA" data-metro2-name="Washington-Arlington-Alexandria, DC-VA-MD-WV" data-metro3-name="San Francisco-Oakland-Hayward, CA">Rutgers University-New Brunswick</a> (N=1,143)</li><li><a data-univ-id="196097" data-univ-name="Stony Brook University" data-state-name="New York" data-metro1-name="New York-Newark-Jersey City, NY-NJ-PA" data-metro2-name="Hartford-West Hartford-East Hartford, CT" data-metro3-name="Philadelphia-Camden-Wilmington, PA-NJ-DE-MD">Stony Brook University</a> (N=730)</li><li><a data-univ-id="100751" data-univ-name="University of Alabama" data-state-name="Alabama" data-metro1-name="Birmingham-Hoover, AL" data-metro2-name="Atlanta-Sandy Springs-Roswell, GA" data-metro3-name="Dallas-Fort Worth-Arlington, TX">University of Alabama</a> (N=4,261)</li><li><a data-univ-id="106397" data-univ-name="University of Arkansas" data-state-name="Arkansas" data-metro1-name="Fayetteville-Springdale-Rogers, AR-MO" data-metro2-name="Dallas-Fort Worth-Arlington, TX" data-metro3-name="Chicago-Naperville-Elgin, IL-IN-WI">University of Arkansas</a> (N=1,001)</li><li><a data-univ-id="110635" data-univ-name="University of California-Berkeley" data-state-name="California" data-metro1-name="San Francisco-Oakland-Hayward, CA" data-metro2-name="Washington-Arlington-Alexandria, DC-VA-MD-WV" data-metro3-name="Atlanta-Sandy Springs-Roswell, GA">University of California-Berkeley</a> (N=879)</li><li><a data-univ-id="110653" data-univ-name="University of California-Irvine" data-state-name="California" data-metro1-name="Los Angeles-Long Beach-Anaheim, CA" data-metro2-name="Seattle-Tacoma-Bellevue, WA" data-metro3-name="Urban Honolulu, HI">University of California-Irvine</a> (N=540)</li><li><a data-univ-id="201885" data-univ-name="University of Cincinnati" data-state-name="Ohio" data-metro1-name="Cincinnati, OH-KY-IN" data-metro2-name="Chicago-Naperville-Elgin, IL-IN-WI" data-metro3-name="Washington-Arlington-Alexandria, DC-VA-MD-WV">University of Cincinnati</a> (N=681)</li><li><a data-univ-id="126614" data-univ-name="University of Colorado-Boulder" data-state-name="Colorado" data-metro1-name="Denver-Aurora-Lakewood, CO" data-metro2-name="Los Angeles-Long Beach-Anaheim, CA" data-metro3-name="Chicago-Naperville-Elgin, IL-IN-WI">University of Colorado-Boulder</a> (N=1,445)</li><li><a data-univ-id="139959" data-univ-name="University of Georgia" data-state-name="Georgia" data-metro1-name="Atlanta-Sandy Springs-Roswell, GA" data-metro2-name="Los Angeles-Long Beach-Anaheim, CA" data-metro3-name="Dallas-Fort Worth-Arlington, TX">University of Georgia</a> (N=834)</li><li><a data-univ-id="155317" data-univ-name="University of Kansas" data-state-name="Kansas" data-metro1-name="Kansas City, MO-KS" data-metro2-name="Chicago-Naperville-Elgin, IL-IN-WI" data-metro3-name="St. Louis, MO-IL">University of Kansas</a> (N=1,023)</li><li><a data-univ-id="166629" data-univ-name="University of Massachusetts-Amherst" data-state-name="Massachusetts" data-metro1-name="Boston-Cambridge-Newton, MA-NH" data-metro2-name="New York-Newark-Jersey City, NY-NJ-PA" data-metro3-name="Los Angeles-Long Beach-Anaheim, CA">University of Massachusetts-Amherst</a> (N=908)</li><li><a data-univ-id="181464" data-univ-name="University of Nebraska-Lincoln" data-state-name="Nebraska" data-metro1-name="Lincoln, NE" data-metro2-name="Chicago-Naperville-Elgin, IL-IN-WI" data-metro3-name="Dallas-Fort Worth-Arlington, TX">University of Nebraska-Lincoln</a> (N=1,404)</li><li><a data-univ-id="215293" data-univ-name="University of Pittsburgh" data-state-name="Pennsylvania" data-metro1-name="Pittsburgh, PA" data-metro2-name="Chicago-Naperville-Elgin, IL-IN-WI" data-metro3-name="Washington-Arlington-Alexandria, DC-VA-MD-WV">University of Pittsburgh</a> (N=1,232)</li><li><a data-univ-id="218663" data-univ-name="University of South Carolina-Columbia" data-state-name="South Carolina" data-metro1-name="Columbia, SC" data-metro2-name="New York-Newark-Jersey City, NY-NJ-PA" data-metro3-name="Chicago-Naperville-Elgin, IL-IN-WI">University of South Carolina-Columbia</a> (N=1,472)</li>
 </ul>
 
+*** #toc
+
+# Table of Contents
+## &nbsp;
+
+<div class="graphs-set">
+  <ul>
+    <li><a href="#/13/2">National Overview</a></li>
+    <li>In-State Results
+      <ul>
+        <li><a href="#/13/3">State (Map)</a></li>
+        <li><a href="#/13/4">State (Figures)</a></li>
+        <li><a href="#/13/5">Metro (Map)</a></li>
+        <li><a href="#/13/6">Metro (Figures)</a></li>
+      </ul>
+    </li>
+    <li>Out-of-State Results
+      <ul>
+        <li><a href="#/13/7">Top Visited Metro Areas</a></li>
+        <li><a href="#/13/8">Out-of-State (Figures)</a></li>
+        <li><a href="#/13/9">Metro 1 (Map)</a></li>
+        <li><a href="#/13/10">Metro 1 (Figures)</a></li>
+        <li><a href="#/13/11">Metro 2 (Map)</a></li>
+        <li><a href="#/13/12">Metro 2 (Figures)</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
 ***
 
 # National Overview
@@ -486,6 +515,7 @@ order by 2;
   <div class="graphs-row">
 <img src="assets/data/199193/titled_map.png" /><img src="assets/data/186380/titled_map.png" /><img src="assets/data/196097/titled_map.png" /><img src="assets/data/100751/titled_map.png" /><img src="assets/data/106397/titled_map.png" /></div><div class="graphs-row"><img src="assets/data/110635/titled_map.png" /><img src="assets/data/110653/titled_map.png" /><img src="assets/data/201885/titled_map.png" /><img src="assets/data/126614/titled_map.png" /><img src="assets/data/139959/titled_map.png" /></div><div class="graphs-row"><img src="assets/data/155317/titled_map.png" /><img src="assets/data/166629/titled_map.png" /><img src="assets/data/181464/titled_map.png" /><img src="assets/data/215293/titled_map.png" /><img src="assets/data/218663/titled_map.png" />
   </div>
+  <a class='btn btn-compare' href='#/13'>Deep-dive results</a>
 </div>
 
 ---
@@ -497,6 +527,7 @@ order by 2;
   <div class="graphs-row">
 <img src="assets/data/199193/titled_scaled_visit_count.png" /><img src="assets/data/186380/titled_scaled_visit_count.png" /><img src="assets/data/196097/titled_scaled_visit_count.png" /><img src="assets/data/100751/titled_scaled_visit_count.png" /><img src="assets/data/106397/titled_scaled_visit_count.png" /></div><div class="graphs-row"><img src="assets/data/110635/titled_scaled_visit_count.png" /><img src="assets/data/110653/titled_scaled_visit_count.png" /><img src="assets/data/201885/titled_scaled_visit_count.png" /><img src="assets/data/126614/titled_scaled_visit_count.png" /><img src="assets/data/139959/titled_scaled_visit_count.png" /></div><div class="graphs-row"><img src="assets/data/155317/titled_scaled_visit_count.png" /><img src="assets/data/166629/titled_scaled_visit_count.png" /><img src="assets/data/181464/titled_scaled_visit_count.png" /><img src="assets/data/215293/titled_scaled_visit_count.png" /><img src="assets/data/218663/titled_scaled_visit_count.png" />
   </div>
+  <a class='btn btn-compare' href='#/13'>Deep-dive results</a>
 </div>
 
 ---

@@ -2,7 +2,7 @@ $(function() {
 
   if (query_id) {
     var univ_id = query_id[1];
-    $univ = $(`a[data-univ-id='${query_id[1]}']`)
+    $univ = $(`a[data-univ-id='${query_id[1]}']`);
 
     loadFigures(univ_id, $univ);
 
@@ -10,6 +10,8 @@ $(function() {
     $('.reveal section.stack').unwrap();
 
   }
+
+  var compareSlide = verticalSlide + 1;
 
   // Keyboard Controls
   
@@ -248,5 +250,16 @@ $(function() {
         addCell(row, item.other_count);
     });
   }
+
+  // Buttons
+
+  $('.reveal .slide .btn-compare').on('click', function() {
+    compareSlide = Reveal.getState().indexh;
+  });
+
+  $('.reveal .slide .btn-right').on('click', function() {
+    Reveal.slide(verticalSlide, 0);
+    Reveal.slide(compareSlide, 0);
+  });
 
 });

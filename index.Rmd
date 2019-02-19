@@ -48,6 +48,8 @@ cite <- function(b, eg = TRUE) {
   paste0(c, ')')
 }
 
+verticalSlide = 13
+
 #slidify ("index.Rmd")
 ```
 
@@ -386,6 +388,35 @@ for (i in 1:nrow(univs)) {
 ```
 </ul>
 
+*** #toc
+
+# Table of Contents
+## &nbsp;
+
+<div class="graphs-set">
+  <ul>
+    <li><a href="#/`r verticalSlide`/2">National Overview</a></li>
+    <li>In-State Results
+      <ul>
+        <li><a href="#/`r verticalSlide`/3">State (Map)</a></li>
+        <li><a href="#/`r verticalSlide`/4">State (Figures)</a></li>
+        <li><a href="#/`r verticalSlide`/5">Metro (Map)</a></li>
+        <li><a href="#/`r verticalSlide`/6">Metro (Figures)</a></li>
+      </ul>
+    </li>
+    <li>Out-of-State Results
+      <ul>
+        <li><a href="#/`r verticalSlide`/7">Top Visited Metro Areas</a></li>
+        <li><a href="#/`r verticalSlide`/8">Out-of-State (Figures)</a></li>
+        <li><a href="#/`r verticalSlide`/9">Metro 1 (Map)</a></li>
+        <li><a href="#/`r verticalSlide`/10">Metro 1 (Figures)</a></li>
+        <li><a href="#/`r verticalSlide`/11">Metro 2 (Map)</a></li>
+        <li><a href="#/`r verticalSlide`/12">Metro 2 (Figures)</a></li>
+      </ul>
+    </li>
+  </ul>
+</div>
+
 ***
 
 # National Overview
@@ -543,6 +574,7 @@ for (i in 1:nrow(univs)) {
 }
 ```
   </div>
+  <a class='btn btn-compare' href='#/`r verticalSlide`'>Deep-dive results</a>
 </div>
 
 ---
@@ -561,6 +593,7 @@ for (i in 1:nrow(univs)) {
 }
 ```
   </div>
+  <a class='btn btn-compare' href='#/`r verticalSlide`'>Deep-dive results</a>
 </div>
 
 ---
