@@ -189,7 +189,7 @@
   opacity: 1;
 }
 
-/* Tables */
+/* Metro Tables */
 
 #table-metro-count td:nth-of-type(4) {
   width: 12%;
@@ -221,6 +221,121 @@
 
 #table-metro-count thead td:nth-of-type(7) {
   text-decoration-color: #8030d1;
+}
+
+/* Comparison Tables */
+
+.comparison-wrapper {
+  max-width: 1000px;
+  max-height: 500px;
+  overflow: scroll;
+  position: relative;
+}
+
+.comparison-wrapper table {
+  position: relative;
+  border-spacing: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.comparison-wrapper table td {
+  font-size: 15px;
+  padding: 6px;
+  background-color: whitesmoke;
+}
+
+/* Descriptive Tables */
+
+.desc-table thead th {
+  font-size: 15px;
+  background-color: whitesmoke;
+  vertical-align: middle;
+  padding: 1px;
+}
+
+.desc-table thead tr:first-child th {
+  border-top: none !important;
+  font-weight: 400 !important;
+}
+
+.desc-table tr:nth-child(1) th {
+  position: sticky;
+  top: 0;
+}
+
+.desc-table tr:nth-child(2) th {
+  position: sticky;
+  top: 20.58px;
+  border-bottom: 1px solid #444 !important;
+}
+
+.desc-table tr td:nth-child(1) {
+  position: sticky;
+  left: 0;
+  border-right: 1px solid #444;
+  width: 195px;
+  display: block;
+}
+
+.desc-table tr th:first-child {
+  left: 0;
+  z-index: 1;
+  border-right: 1px solid #444;
+}
+
+.desc-table tbody tr:last-child td {
+  border-bottom: none !important;
+}
+
+/* Regression Tables */
+
+.reg-wrapper tr:nth-child(4) td {
+  position: sticky;
+  top: 0;
+  vertical-align: middle;
+  border-bottom: 1px solid #444;
+}
+
+.reg-wrapper tr:nth-last-child(4) td {
+  position: sticky;
+  bottom: 0;
+}
+
+.reg-wrapper tr:nth-last-child(5) td {
+  position: sticky;
+  bottom: 28.6px;
+  border-top: 1px solid #444;
+}
+
+.reg-wrapper tr td:nth-child(1):not([colspan]) {
+  position: sticky;
+  left: 0;
+  border-right: 1px solid #444;
+}
+
+.reg-wrapper tr:nth-child(4) td:first-child,
+.reg-wrapper tr:nth-last-child(4) td:first-child,
+.reg-wrapper tr:nth-last-child(5) td:first-child {
+  left: 0;
+  z-index: 1;
+}
+
+.reg-wrapper caption,
+.reg-wrapper tbody tr:nth-child(-n+3),
+.reg-wrapper tbody tr:nth-child(5),
+.reg-wrapper tbody tr:nth-last-child(-n+3),
+.reg-wrapper tbody tr:nth-last-child(6) {
+  display: none;
+}
+
+.reveal p.footnote {
+  display: inline-block;
+  width: 800px;
+  font-size: 12px;
+  line-height: 1.5;
+  vertical-align: top;
+  padding: 5px;
+  font-weight: 300;
 }
 
 /* References */
