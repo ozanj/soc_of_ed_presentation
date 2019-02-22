@@ -591,17 +591,12 @@ for (i in 1:nrow(univs)) {
 ---
 
 # Cross-university comparisons
-## Map of Visits
+## Descriptives for out-of-state visits
 
 <div class="graphs-set graphs-set-all">
-  <div class="graphs-row">
-```{r, echo=FALSE, results='asis'}
-for (i in 1:nrow(univs)) {
-  cat(paste0('<img src="assets/data/', univs[i, 'univ_id'], '/titled_map.png" />'))
-  if (i %% 5 == 0 && i < nrow(univs)) {
-    cat('</div><div class="graphs-row">')
-  }
-}
+  <div class="comparison-wrapper desc-table">
+```{r, echo=FALSE, results='asis', warning=FALSE}
+cat(paste0(readLines("assets/tables/descriptives_outofstate.htm"),collapse=" "))
 ```
   </div>
   <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
@@ -610,13 +605,28 @@ for (i in 1:nrow(univs)) {
 ---
 
 # Cross-university comparisons
-## Number of events by event type
+## Probability of receiving a recruiting visit by out-of-state high school characteristics
+
+<div class="graphs-set graphs-set-all">
+  <div class="comparison-wrapper reg-wrapper">
+```{r, echo=FALSE, results='asis'}
+cat(paste0(readLines("assets/tables/outofstate_wrse_labeled.htm"),collapse=" "))
+```
+  </div>
+  <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
+  <p class="footnote">&ast;p<0.05; &ast;&ast;p<0.01; &ast;&ast;&ast;p<0.001; Dependent Variable: Received a recruiting visit (0/1); Robust standard errors in parentheses; Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten student in each grade; located in the 50 U.S. states, the District of Columbia, or land regulated by the Bureau of Indian Affairs; is not special education school, an alternative school, or a virtual school.</p>
+</div>
+
+---
+
+# Cross-university comparisons
+## Map of Visits
 
 <div class="graphs-set graphs-set-all">
   <div class="graphs-row">
 ```{r, echo=FALSE, results='asis'}
 for (i in 1:nrow(univs)) {
-  cat(paste0('<img src="assets/data/', univs[i, 'univ_id'], '/titled_scaled_visit_count.png" />'))
+  cat(paste0('<img src="assets/data/', univs[i, 'univ_id'], '/titled_map.png" />'))
   if (i %% 5 == 0 && i < nrow(univs)) {
     cat('</div><div class="graphs-row">')
   }
@@ -643,45 +653,16 @@ cat(paste0(readLines("assets/tables/descriptives_instate.htm"),collapse=" "))
 ---
 
 # Cross-university comparisons
-## Descriptives for out-of-state visits
-
-<div class="graphs-set graphs-set-all">
-  <div class="comparison-wrapper desc-table">
-```{r, echo=FALSE, results='asis', warning=FALSE}
-cat(paste0(readLines("assets/tables/descriptives_outofstate.htm"),collapse=" "))
-```
-  </div>
-  <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
-</div>
-
----
-
-# Cross-university comparisons
 ## Probability of receiving a recruiting visit by in-state high school characteristics
 
 <div class="graphs-set graphs-set-all">
   <div class="comparison-wrapper reg-wrapper">
 ```{r, echo=FALSE, results='asis'}
-cat(paste0(readLines("assets/tables/instate_wrse.htm"),collapse=" "))
+cat(paste0(readLines("assets/tables/instate_wrse_labeled.htm"),collapse=" "))
 ```
   </div>
   <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
-  <p class="footnote">&ast;p<0.05; &ast;&ast;p<0.01; &ast;&ast;&ast;p<0.001; Dependent Variable: Received a recruiting visit (0/1); Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten student in each grade; located in the 50 U.S. states, the District of Columbia, or land regulated by the Bureau of Indian Affairs; is not special education school, an alternative school, or a virtual school.</p>
-</div>
-
----
-
-# Cross-university comparisons
-## Probability of receiving a recruiting visit by out-of-state high school characteristics
-
-<div class="graphs-set graphs-set-all">
-  <div class="comparison-wrapper reg-wrapper">
-```{r, echo=FALSE, results='asis'}
-cat(paste0(readLines("assets/tables/outofstate_wrse.htm"),collapse=" "))
-```
-  </div>
-  <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
-  <p class="footnote">&ast;p<0.05; &ast;&ast;p<0.01; &ast;&ast;&ast;p<0.001; Dependent Variable: Received a recruiting visit (0/1); Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten student in each grade; located in the 50 U.S. states, the District of Columbia, or land regulated by the Bureau of Indian Affairs; is not special education school, an alternative school, or a virtual school.</p>
+  <p class="footnote">&ast;p<0.05; &ast;&ast;p<0.01; &ast;&ast;&ast;p<0.001; Dependent Variable: Received a recruiting visit (0/1); Robust standard errors in parentheses; Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten student in each grade; located in the 50 U.S. states, the District of Columbia, or land regulated by the Bureau of Indian Affairs; is not special education school, an alternative school, or a virtual school.</p>
 </div>
 
 ---

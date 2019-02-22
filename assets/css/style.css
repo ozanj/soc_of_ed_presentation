@@ -308,11 +308,21 @@
 
 /* Regression Tables */
 
+.reg-wrapper tr td {
+  padding: 2px 6px;
+}
+
+.reveal .reg-wrapper table tr td:nth-of-type(2) {
+  text-align: center;
+}
+
 .reg-wrapper tr:nth-child(4) td {
   position: sticky;
   top: 0;
   vertical-align: middle;
   border-bottom: 1px solid #444;
+  font-weight: 900;
+  text-align: center;
 }
 
 .reg-wrapper tr:nth-last-child(4) td {
@@ -326,10 +336,24 @@
   border-top: 1px solid #444;
 }
 
+.reg-wrapper tr:nth-child(6) td:first-child {
+  white-space: nowrap;
+}
+
 .reg-wrapper tr td:nth-child(1):not([colspan]) {
   position: sticky;
   left: 0;
   border-right: 1px solid #444;
+}
+
+.reg-wrapper tr td[style='text-align:left']:nth-child(1) {
+  padding-left: 20px;
+  padding-right: 35px;
+  white-space: nowrap;
+}
+
+.reg-wrapper tr:nth-last-child(-n+12) td:first-child {
+  padding: 6px;
 }
 
 .reg-wrapper tr:nth-child(4) td:first-child,
@@ -345,6 +369,10 @@
 .reg-wrapper tbody tr:nth-last-child(-n+3),
 .reg-wrapper tbody tr:nth-last-child(6) {
   display: none;
+}
+
+.reg-wrapper tr td:empty:not([style]) {
+  padding: 8px;
 }
 
 .reveal p.footnote {
