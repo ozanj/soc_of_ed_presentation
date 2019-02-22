@@ -255,12 +255,16 @@
 
 .desc-table thead tr:first-child th {
   border-top: none !important;
-  font-weight: 400 !important;
+}
+
+.desc-table thead tr:nth-child(2) th {
+  padding: 0 5px;
 }
 
 .desc-table tr:nth-child(1) th {
   position: sticky;
   top: 0;
+  white-space: nowrap;
 }
 
 .desc-table tr:nth-child(2) th {
@@ -273,8 +277,7 @@
   position: sticky;
   left: 0;
   border-right: 1px solid #444;
-  width: 195px;
-  display: block;
+  white-space: nowrap;
 }
 
 .desc-table tr th:first-child {
@@ -283,8 +286,24 @@
   border-right: 1px solid #444;
 }
 
+.desc-table td[colspan='45'] {
+  display: block;
+  position: sticky;
+  top: 30px;
+  z-index: 2;
+  background-color: transparent;
+}
+
 .desc-table tbody tr:last-child td {
   border-bottom: none !important;
+}
+
+.desc-table #hs {
+  -webkit-transform: translatez(0) !important;
+  -moz-transform: translatez(0);
+  -ms-transform: translatez(0);
+  -o-transform: translatez(0);
+  transform: translatez(0);
 }
 
 /* Regression Tables */

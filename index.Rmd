@@ -599,12 +599,12 @@ for (i in 1:nrow(univs)) {
 ---
 
 # Cross-university comparisons
-## Descriptives for in-state visits to public high schools
+## Descriptives for in-state visits
 
 <div class="graphs-set graphs-set-all">
   <div class="comparison-wrapper desc-table">
-```{r, echo=FALSE, results='asis'}
-cat(paste0(readLines("assets/tables/descriptives_pubHS.htm"),collapse=" "))
+```{r, echo=FALSE, results='asis', warning=FALSE}
+cat(paste0(readLines("assets/tables/descriptives_instate.htm"),collapse=" "))
 ```
   </div>
   <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
@@ -613,12 +613,12 @@ cat(paste0(readLines("assets/tables/descriptives_pubHS.htm"),collapse=" "))
 ---
 
 # Cross-university comparisons
-## Descriptives for in-state visits to community colleges
+## Descriptives for out-of-state visits
 
 <div class="graphs-set graphs-set-all">
   <div class="comparison-wrapper desc-table">
-```{r, echo=FALSE, results='asis'}
-cat(paste0(readLines("assets/tables/descriptives_CC.htm"),collapse=" "))
+```{r, echo=FALSE, results='asis', warning=FALSE}
+cat(paste0(readLines("assets/tables/descriptives_outofstate.htm"),collapse=" "))
 ```
   </div>
   <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>

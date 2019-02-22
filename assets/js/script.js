@@ -251,6 +251,20 @@ $(function() {
     });
   }
 
+  var headingShown = true;
+  var $cc = $('#cc');
+
+  $('.desc-table').scroll(function() {
+    var window_offset = $cc.offset().top - $(this).scrollTop();
+    if (window_offset < -360 && headingShown) {
+      $('#hs').fadeOut(200);
+      headingShown = false;
+    } else if (window_offset > -330 && !headingShown) {
+      $('#hs').fadeIn(200);
+      headingShown = true;
+    }
+  });
+
   // Buttons
 
   $('.reveal .slide .btn-compare').on('click', function() {
