@@ -244,6 +244,12 @@
   background-color: whitesmoke;
 }
 
+.comparison-wrapper table tr.active-row td,
+.comparison-wrapper table .active-col,
+.reg-wrapper tr.active-row-2 td {
+  background-color: palegoldenrod;
+}
+
 /* Descriptive Tables */
 
 .desc-table thead th {
@@ -286,8 +292,7 @@
   border-right: 1px solid #444;
 }
 
-.desc-table td[colspan='45'] {
-  display: block;
+.desc-table .header {
   position: sticky;
   top: 30px;
   z-index: 2;

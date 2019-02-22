@@ -99,6 +99,10 @@ $(function() {
   Reveal.addEventListener( 'slidechanged', function() {
     $('.modal').fadeOut();
     $('.graphs-set img').removeClass('disabled');
+    $('table tr').removeClass('active-row');
+    $('table tr').removeClass('active-row-2');
+    $('table td').removeClass('active-col');
+    $('table th').removeClass('active-col');
   });
 
   // Univ Selection
@@ -252,18 +256,67 @@ $(function() {
   }
 
   var headingShown = true;
-  var $cc = $('#cc');
 
   $('.desc-table').scroll(function() {
+    var $cc = $(this).find('#h2');
     var window_offset = $cc.offset().top - $(this).scrollTop();
     if (window_offset < -360 && headingShown) {
-      $('#hs').fadeOut(200);
+      $(this).find('#h1').fadeOut(200);
       headingShown = false;
     } else if (window_offset > -330 && !headingShown) {
-      $('#hs').fadeIn(200);
+      $(this).find('#h1').fadeIn(200);
       headingShown = true;
     }
   });
+
+  $('.desc-table td').click(function () {
+    if ($(this).text().trim() !== '' && !$(this).parent().find('strong').length) {
+      $('.comparison-wrapper table tr').removeClass('active-row');
+      $(this).parent().addClass('active-row');
+    }
+  });
+
+  $('.reg-wrapper table tr').click(function () {
+    if ($(this).text().trim() !== '' && !$(this).find('strong').length) {
+      $('.comparison-wrapper table tr').removeClass('active-row');
+      $(this).addClass('active-row');
+    }
+  });
+
+  $('.comparison-wrapper table td').click(function() {
+    if ($(this).text().trim() !== '' && parseInt($(this).index()) !== 0) {
+      var t = parseInt($(this).index()) + 1;
+      $('.comparison-wrapper table td').removeClass('active-col');
+      $('.comparison-wrapper table thead tr:nth-child(2) th').removeClass('active-col');
+      $(this).closest('table').find('td:nth-child(' + t + ')').addClass('active-col');
+      $(this).closest('table').find('thead tr:nth-child(2) th:nth-child(' + t + ')').addClass('active-col');
+    }
+  });
+
+  $('.reg-wrapper table td').click(function() {
+    if ($(this).parent().text().trim() !== '' && !$(this).parent().find('strong').length) {
+      $('.reg-wrapper table tr').removeClass('active-row-2');
+      var t = parseInt($(this).index()) + 1,
+          row = $(this).parent();
+      var $prevCell = row.prev().find('td:nth-child(' + t + ')');
+      if ($prevCell.length && $prevCell.parent().text().trim() != '' && !$prevCell.parent().find('strong').length) {
+        row.prev().addClass('active-row-2');
+      }
+      var $nextCell = row.next().find('td:nth-child(' + t + ')');
+      if ($nextCell.length && $nextCell.parent().text().trim() != '' && !$nextCell.parent().find('strong').length) {
+        row.next().addClass('active-row-2');
+      }
+    }
+  });
+
+  //$('td').hover(function() {
+  //  var t = parseInt($(this).index()) + 1;
+  //  $('td:nth-child(' + t + ')').addClass('highlighted');
+  //},
+  //function() {
+  //  var t = parseInt($(this).index()) + 1;
+  //  $('td:nth-child(' + t + ')').removeClass('highlighted');
+  //});
 
   // Buttons
 
