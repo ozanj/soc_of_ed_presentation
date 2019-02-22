@@ -46,27 +46,53 @@ This research was made possible by funding from the following sources:
 - __Joyce Foundation__ (Research Grant)
 
 
+
 --- 
 
 # Motivation
 ## The problem with policy discourse about college access
 
-The 2014 White House "Access Summit" 
-- The White House (2014) review of causes of unequal college access
-    - Highlights "achievement gap", "under-matching"
-- *Commitments to Action on College Opportunity*  (The White House, 2014)
-    - Universities pledge "action plans" (e.g., holistic admission, need-based aid, "outreach")
-
-Problem with policy discourse
-- Place responsibility on students, K-12 schools; assume universities are passive or progressive
+The problem: access to public research universities
+- Historical mission of social mobility for meritorious state residents
+- Concern about growing socioeconomic and racial inequality in access
 
 <br>
+Mainstream policy discourse about access: The 2014 White House "Access Summit" 
+- The White House (2014a) review of causes of unequal college access
+    - "achievement gap", "under-matching"; place responsibility on students, K-12 schools
+    - affordability; declining state support leads to rising tuition prices
+- The White House (2014b) asks universities for *Commitments to Action on College Opportunity*
+    - Universities pledge "action plans" (e.g., need-based financial aid, "outreach", holistic admission)
+
+<br>
+Problem with policy discourse: does not interrogate university enrollment priorities
+- Applauds universities for commitment to access amidst "deficiencies" of students, K-12 schools and despite declines in state funding
+- Decades of research finds policy adoption a symbolic effort to appease stakeholders (e.g., Davis, 2005)
+
+---
+
+# Motivation
+## The problem with policy discourse about college access
+
 Alternative explanation for access inequality
 - University enrollment priorities biased against poor students and/or communities of color
 
-Research focus (this paper)
-- We argue recruiting behavior is an indicator of enrollment preferences
-- **Research question**: What are the similarities and differences in off-campus recruiting patterns across public research universities?
+<br>
+Why study university recruiting behavior
+- Universities expend substantial resources identifying and recruiting prospects [CITE]
+- Internal resource allocation better indicator of organizational priorities than rhetoric, policies
+- Knowing which student populations targeted by recruiting efforts indicates enrollment priorities
+
+
+<br>
+Research focus
+- Analyze off-campus recruiting visits (e.g., visit to a local high school) by public research universities as a means of gaining insight about university enrollment priorities
+- **Research question**
+    - What are the similarities and differences in off-campus recruiting patterns across universities?
+- **Analytic focus**
+    - Income; race; academic achievement; in-state vs. out-of-state
+
+
 
 
 --- &twocol
@@ -84,12 +110,12 @@ Research focus (this paper)
 
 **Interventions along the funnel**
 * Identify prospects
-    - Purchase "student lists"
+    - Buy "student lists" from College Board/ACT
 * Recruit prospects remotely
     * Email, mail, text, etc.
 * Recruit prospects in-person
     * **Off-campus recruiting visits** (e.g., high
-school visits, fairs)
+school visits, college fairs)
     * Campus visits
     * Other "outreach"
 * Solicit inquiries, stealth applicants
@@ -101,23 +127,23 @@ school visits, fairs)
 ---
 
 # Literature review
-## Scholarship on the enrollment funnel
+## Scholarship on recruiting
 
+Evaluations of outreach interventions (e.g., Andrews, Imberman, Lovenheim, 2016)
+- But unclear whether universities substantively adopt these "best practices" in less controlled settings
 
-
-Most research analyzes admissions (e.g., Killgore, 2009) or financial aid (e.g., McPherson, Schapiro, 1998)
-- Final stages of enrollment funnel
-
-Scholarship on recruiting is sparse
-
-- Audits of university response to inquiries (e.g., Hanson, 2017; Thornhill, forthcoming)
-- Off-campus recruiting visits
-    - From the college perspective (Stevens, 2007)
-        - Important for relationships with prospects, counselors at "feeder" schools
-    - From the perspective of high school students (Holland, 2019)
-        - Which universities visit affects student decisions; especially first-gen, students of color
+Audits of response to "inquiries" by admissions officers (e.g., Hanson, 2017; Thornhill, forthcoming)
+- Identifies biases of admissions officers
 
 <br>
+Off-campus recruiting visits
+- Purpose: identify prospects; connect with prospects already targeted through mail/email
+  - second highest source of inquiries (after student list purchases); third highest source of enrollees (after stealth applicants and on-campus  visits) 
+- From the college perspective (Stevens, 2007)
+    - Important for relationships with prospects, counselors at "feeder" schools
+- From the perspective of high school students (Holland, 2019)
+    - Which universities visit affects student decisions; especially first-gen, students of color
+
 Research gap
 - We don't know which universities visit which schools and communities
 - If poor students, communities of color are not being recruited, then "under-matching" may be due to under-recruiting rather than lack of guidance
