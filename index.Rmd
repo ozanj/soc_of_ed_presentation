@@ -670,6 +670,30 @@ cat(paste0(readLines("assets/tables/instate_wrse_labeled.htm"),collapse=" "))
 # Summary
 ## Summary of results and next steps for this paper
 
+Out of State Recruiting
+- Disproportionate out of state visits compared to in state (exceptions are NC State and UC Irvine)
+- Visits concentrated in highly affluent communities
+- Less likely to visit schools with predominantly Black, Hispanic, and/or Native American students
+- Disproportionate visits to private high schools
+- Visits are concentrated in metropolitan areas
+
+In-State Recruiting
+- Variation in coverage of public high schools and community colleges
+- Visits are driven by either achievement or enrollment size across cases
+- For most cases, visits demonstrate some income bias although smaller in magnitude to out of state visits (exceptions are NC State and UC Irvine)
+- Public high schools with predominantly Black, Hispanic, and/or Native American students are less likely to receive a visit by some cases (e.g. Alabama and Arkansas)
+
+Overall Recruiting
+- Nearly all play the same recruiting game
+    - Limited in-state recruiting and expansive out of state recruiting in the same metros (e.g., Alabama, CU Boulder, South Carolina)
+- But some are playing with a different strategy
+    - Expansive in-state recruiting and expansive out of state recruiting in local regions not visited by any other universities (e.g. Nebraska)
+
+---
+
+# Summary
+## Summary of results and next steps for this paper
+
 Summary of results
 - Majority of universities in our sample hosted twice as many out-of-state events as in-state events
     - Out-of-state events focus on affluent public schools and private schools

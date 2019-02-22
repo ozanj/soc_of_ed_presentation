@@ -58,10 +58,10 @@ The problem: access to public research universities
 
 <br>
 Mainstream policy discourse about access: The 2014 White House "Access Summit" 
-- The White House (2014) review of causes of unequal college access
+- The White House (2014a) review of causes of unequal college access
     - "achievement gap", "under-matching"; place responsibility on students, K-12 schools
     - affordability; declining state support leads to rising tuition prices
-- The White House (2014) asks universities for *Commitments to Action on College Opportunity*
+- The White House (2014b) asks universities for *Commitments to Action on College Opportunity*
     - Universities pledge "action plans" (e.g., need-based financial aid, "outreach", holistic admission)
 
 <br>
@@ -593,6 +593,30 @@ order by 2;
   <a class="btn btn-compare" href="#/14">Deep-dive results</a>
   <p class="footnote">&ast;p<0.05; &ast;&ast;p<0.01; &ast;&ast;&ast;p<0.001; Dependent Variable: Received a recruiting visit (0/1); Robust standard errors in parentheses; Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten student in each grade; located in the 50 U.S. states, the District of Columbia, or land regulated by the Bureau of Indian Affairs; is not special education school, an alternative school, or a virtual school.</p>
 </div>
+
+---
+
+# Summary
+## Summary of results and next steps for this paper
+
+Out of State Recruiting
+- Disproportionate out of state visits compared to in state (exceptions are NC State and UC Irvine)
+- Visits concentrated in highly affluent communities
+- Less likely to visit schools with predominantly Black, Hispanic, and/or Native American students
+- Disproportionate visits to private high schools
+- Visits are concentrated in metropolitan areas
+
+In-State Recruiting
+- Variation in coverage of public high schools and community colleges
+- Visits are driven by either achievement or enrollment size across cases
+- For most cases, visits demonstrate some income bias although smaller in magnitude to out of state visits (exceptions are NC State and UC Irvine)
+- Public high schools with predominantly Black, Hispanic, and/or Native American students are less likely to receive a visit by some cases (e.g. Alabama and Arkansas)
+
+Overall Recruiting
+- Nearly all play the same recruiting game
+    - Limited in-state recruiting and expansive out of state recruiting in the same metros (e.g., Alabama, CU Boulder, South Carolina)
+- But some are playing with a different strategy
+    - Expansive in-state recruiting and expansive out of state recruiting in local regions not visited by any other universities (e.g. Nebraska)
 
 ---
 
