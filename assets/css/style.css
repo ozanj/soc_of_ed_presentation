@@ -238,6 +238,10 @@
   font-family: 'Times New Roman', Times, serif;
 }
 
+.comparison-wrapper table th {
+  border-top: none !important;
+}
+
 .comparison-wrapper table td {
   font-size: 15px;
   padding: 6px;
@@ -309,6 +313,32 @@
   -ms-transform: translatez(0);
   -o-transform: translatez(0);
   transform: translatez(0);
+}
+
+/* Count Tables */
+
+.count-table thead tr:nth-child(2) th {
+  padding: 3px 0;
+}
+
+.count-table table tr:nth-of-type(6) td {
+  padding: 6px 25px;
+}
+
+.count-table table tr td:first-child {
+  padding-left: 20px;
+}
+
+.count-table table tr.header td:first-child {
+  padding-left: 6px;
+}
+
+.count-table .header {
+  font-weight: 900;
+}
+
+.count-table tr:nth-child(2) th {
+  top: 0;
 }
 
 /* Regression Tables */

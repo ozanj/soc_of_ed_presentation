@@ -259,13 +259,15 @@ $(function() {
 
   $('.desc-table').scroll(function() {
     var $cc = $(this).find('#h2');
-    var window_offset = $cc.offset().top - $(this).scrollTop();
-    if (window_offset < -360 && headingShown) {
-      $(this).find('#h1').fadeOut(200);
-      headingShown = false;
-    } else if (window_offset > -330 && !headingShown) {
-      $(this).find('#h1').fadeIn(200);
-      headingShown = true;
+    if ($cc.length) {
+      var window_offset = $cc.offset().top - $(this).scrollTop();
+      if (window_offset < -360 && headingShown) {
+        $(this).find('#h1').fadeOut(200);
+        headingShown = false;
+      } else if (window_offset > -330 && !headingShown) {
+        $(this).find('#h1').fadeIn(200);
+        headingShown = true;
+      }
     }
   });
 
@@ -287,9 +289,9 @@ $(function() {
     if ($(this).text().trim() !== '' && parseInt($(this).index()) !== 0) {
       var t = parseInt($(this).index()) + 1;
       $('.comparison-wrapper table td').removeClass('active-col');
-      $('.comparison-wrapper table thead tr:nth-child(2) th').removeClass('active-col');
+      $('.comparison-wrapper table thead tr:last-child th').removeClass('active-col');
       $(this).closest('table').find('td:nth-child(' + t + ')').addClass('active-col');
-      $(this).closest('table').find('thead tr:nth-child(2) th:nth-child(' + t + ')').addClass('active-col');
+      $(this).closest('table').find('thead tr:last-child th:nth-child(' + t + ')').addClass('active-col');
     }
   });
 

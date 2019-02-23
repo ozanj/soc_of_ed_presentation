@@ -50,10 +50,10 @@ The problem: access to public research universities
 
 <br>
 Mainstream policy discourse about access: The 2014 White House "Access Summit" 
-- The White House (2014) review of causes of unequal college access
+- The White House (2014a) review of causes of unequal college access
     - "achievement gap", "under-matching"; place responsibility on students, K-12 schools
     - affordability; declining state support leads to rising tuition prices
-- The White House (2014) asks universities for *Commitments to Action on College Opportunity*
+- The White House (2014b) asks universities for *Commitments to Action on College Opportunity*
     - Universities pledge "action plans" (e.g., need-based financial aid, "outreach", holistic admission)
 
 <br>
@@ -529,6 +529,18 @@ order by 2;
 
 ---
 
+# Cross-university results
+## Number of events by type and in-state, out-of-state
+
+<div class="graphs-set graphs-set-all">
+  <div class="comparison-wrapper desc-table count-table">
+<table> <thead> <tr style='display: none;'><th colspan='16'></th></tr> <tr class='header'> <th style='border-bottom: 1px solid grey; border-top: 2px solid grey;'> </th> <th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>NC State</th> <th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>Rutgers</th> <th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>Stony Brook</th> <th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>Alabama</th> <th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>Arkansas</th> <th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>UC Berkeley</th> <th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>UC Irvine</th> <th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>Cincinnati</th> <th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>CU Boulder</th> <th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>Georgia</th> <th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>Kansas</th> <th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>UMass</th> <th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>Nebraska</th> <th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>Pittsburgh</th> <th style='border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;'>South Carolina</th> </tr> </thead> <tbody> <tr class='header'> <td style='text-align: left;'>Total Events</td> <td style='text-align: center;'>649</td> <td style='text-align: center;'>1,598</td> <td style='text-align: center;'>1,072</td> <td style='text-align: center;'>4,270</td> <td style='text-align: center;'>1,009</td> <td style='text-align: center;'>907</td> <td style='text-align: center;'>933</td> <td style='text-align: center;'>1,361</td> <td style='text-align: center;'>1,446</td> <td style='text-align: center;'>874</td> <td style='text-align: center;'>1,023</td> <td style='text-align: center;'>1,043</td> <td style='text-align: center;'>1,421</td> <td style='text-align: center;'>1,233</td> <td style='text-align: center;'>1,497</td> </tr> <tr class='header'> <td style='text-align: left;'>Out-of-State</td> <td style='text-align: center;'>169</td> <td style='text-align: center;'>941</td> <td style='text-align: center;'>644</td> <td style='text-align: center;'>3,886</td> <td style='text-align: center;'>784</td> <td style='text-align: center;'>421</td> <td style='text-align: center;'>168</td> <td style='text-align: center;'>805</td> <td style='text-align: center;'>1,068</td> <td style='text-align: center;'>581</td> <td style='text-align: center;'>756</td> <td style='text-align: center;'>722</td> <td style='text-align: center;'>874</td> <td style='text-align: center;'>906</td> <td style='text-align: center;'>1,247</td> </tr> <tr> <td style='text-align: left;'>Public High Schools</td> <td style='text-align: center;'>97</td> <td style='text-align: center;'>551</td> <td style='text-align: center;'>467</td> <td style='text-align: center;'>2,256</td> <td style='text-align: center;'>478</td> <td style='text-align: center;'>188</td> <td style='text-align: center;'>73</td> <td style='text-align: center;'>483</td> <td style='text-align: center;'>599</td> <td style='text-align: center;'>281</td> <td style='text-align: center;'>433</td> <td style='text-align: center;'>468</td> <td style='text-align: center;'>645</td> <td style='text-align: center;'>559</td> <td style='text-align: center;'>677</td> </tr> <tr> <td style='text-align: left;'>Private High Schools</td> <td style='text-align: center;'>27</td> <td style='text-align: center;'>223</td> <td style='text-align: center;'>98</td> <td style='text-align: center;'>914</td> <td style='text-align: center;'>204</td> <td style='text-align: center;'>134</td> <td style='text-align: center;'>40</td> <td style='text-align: center;'>198</td> <td style='text-align: center;'>357</td> <td style='text-align: center;'>231</td> <td style='text-align: center;'>160</td> <td style='text-align: center;'>214</td> <td style='text-align: center;'>104</td> <td style='text-align: center;'>210</td> <td style='text-align: center;'>328</td> </tr> <tr> <td style='text-align: left;'>Other</td> <td style='text-align: center;'>45</td> <td style='text-align: center;'>167</td> <td style='text-align: center;'>79</td> <td style='text-align: center;'>716</td> <td style='text-align: center;'>102</td> <td style='text-align: center;'>99</td> <td style='text-align: center;'>55</td> <td style='text-align: center;'>124</td> <td style='text-align: center;'>112</td> <td style='text-align: center;'>69</td> <td style='text-align: center;'>163</td> <td style='text-align: center;'>40</td> <td style='text-align: center;'>125</td> <td style='text-align: center;'>137</td> <td style='text-align: center;'>242</td> </tr> <tr class='header'> <td style='text-align: left;'>In-State</td> <td style='text-align: center;'>480</td> <td style='text-align: center;'>657</td> <td style='text-align: center;'>428</td> <td style='text-align: center;'>384</td> <td style='text-align: center;'>225</td> <td style='text-align: center;'>486</td> <td style='text-align: center;'>765</td> <td style='text-align: center;'>556</td> <td style='text-align: center;'>378</td> <td style='text-align: center;'>293</td> <td style='text-align: center;'>267</td> <td style='text-align: center;'>321</td> <td style='text-align: center;'>547</td> <td style='text-align: center;'>327</td> <td style='text-align: center;'>250</td> </tr> <tr> <td style='text-align: left;'>Public High Schools</td> <td style='text-align: center;'>310</td> <td style='text-align: center;'>456</td> <td style='text-align: center;'>312</td> <td style='text-align: center;'>150</td> <td style='text-align: center;'>161</td> <td style='text-align: center;'>269</td> <td style='text-align: center;'>337</td> <td style='text-align: center;'>397</td> <td style='text-align: center;'>240</td> <td style='text-align: center;'>197</td> <td style='text-align: center;'>179</td> <td style='text-align: center;'>210</td> <td style='text-align: center;'>446</td> <td style='text-align: center;'>211</td> <td style='text-align: center;'>197</td> </tr> <tr> <td style='text-align: left;'>Private High Schools</td> <td style='text-align: center;'>4</td> <td style='text-align: center;'>74</td> <td style='text-align: center;'>40</td> <td style='text-align: center;'>49</td> <td style='text-align: center;'>21</td> <td style='text-align: center;'>35</td> <td style='text-align: center;'>21</td> <td style='text-align: center;'>79</td> <td style='text-align: center;'>14</td> <td style='text-align: center;'>67</td> <td style='text-align: center;'>21</td> <td style='text-align: center;'>62</td> <td style='text-align: center;'>55</td> <td style='text-align: center;'>51</td> <td style='text-align: center;'>22</td> </tr> <tr> <td style='text-align: left;'>Community Colleges</td> <td style='text-align: center;'>95</td> <td style='text-align: center;'>74</td> <td style='text-align: center;'>18</td> <td style='text-align: center;'>67</td> <td style='text-align: center;'>16</td> <td style='text-align: center;'>121</td> <td style='text-align: center;'>307</td> <td style='text-align: center;'>16</td> <td style='text-align: center;'>92</td> <td style='text-align: center;'>0</td> <td style='text-align: center;'>12</td> <td style='text-align: center;'>31</td> <td style='text-align: center;'>20</td> <td style='text-align: center;'>37</td> <td style='text-align: center;'>2</td> </tr> <tr> <td style='border-bottom: 2px solid grey; text-align: left;'>Other</td> <td style='border-bottom: 2px solid grey; text-align: center;'>71</td> <td style='border-bottom: 2px solid grey; text-align: center;'>53</td> <td style='border-bottom: 2px solid grey; text-align: center;'>58</td> <td style='border-bottom: 2px solid grey; text-align: center;'>118</td> <td style='border-bottom: 2px solid grey; text-align: center;'>27</td> <td style='border-bottom: 2px solid grey; text-align: center;'>61</td> <td style='border-bottom: 2px solid grey; text-align: center;'>100</td> <td style='border-bottom: 2px solid grey; text-align: center;'>64</td> <td style='border-bottom: 2px solid grey; text-align: center;'>32</td> <td style='border-bottom: 2px solid grey; text-align: center;'>29</td> <td style='border-bottom: 2px solid grey; text-align: center;'>55</td> <td style='border-bottom: 2px solid grey; text-align: center;'>18</td> <td style='border-bottom: 2px solid grey; text-align: center;'>26</td> <td style='border-bottom: 2px solid grey; text-align: center;'>28</td> <td style='border-bottom: 2px solid grey; text-align: center;'>29</td> </tr> </tbody> </table>
+  </div>
+</div>
+<a class="btn btn-compare" href="#/12">Deep-dive results</a>
+
+---
+
 # Cross-university results, out-of-state visits
 ## Descriptive statistics for out-of-state visits
 
@@ -629,7 +641,7 @@ Implications
 
 Future research
 - Manuscript that focuses on racial biases in off-campus recruiting visits
-    - Universities prioritizing middle-class students of color and "privileged poor"  enrolled in high-resource schools, but ignoring traditional public schools that are majority-minority?
+    - Universities prioritizing middle-class students of color and "privileged poor" (Jack, 2016) enrolled in high-resource schools, but ignoring traditional public schools that are majority-minority?
 - Collect/analyze data on other means used to identify and target prospects
     - Characteristics universities prioritize when purchasing "prospect lists" from College Board/ACT?
     - Experimental audits of university responses to "inquiries" with different characteristics
@@ -668,14 +680,7 @@ Ed. by N. J. Smelser and R. Swedberg.
 New York: Russell Sage Foundation, 2005, pp. 478-502.
 ISBN: 0691034486 (alk. paper).</cite></p>
 
-<p><a id='bib-RN4408'></a><a href="#cite-RN4408">[3]</a><cite>
-S. Dynarski, C. J. Libassi, K. Michelmore, et al.
-&ldquo;Closing the Gap: The Effect of a Targeted, Tuition-Free Promise on College Choices of High-Achieving, Low-Income Students&rdquo;.
-In: <em>National Bureau of Economic Research Working Paper Series</em> No. 25349 (2018).
-DOI: <a href="https://doi.org/10.3386/w25349">10.3386/w25349</a>.
-URL: <a href="http://www.nber.org/papers/w25349">http://www.nber.org/papers/w25349</a>.</cite></p>
-
-<p><a id='bib-RN4331'></a><a href="#cite-RN4331">[4]</a><cite>
+<p><a id='bib-RN4331'></a><a href="#cite-RN4331">[3]</a><cite>
 A. Hanson.
 &ldquo;Do college admissions counselors discriminate? Evidence from a correspondence-based field experiment&rdquo;.
 In: <em>Economics of Education Review</em> 60 (2017), pp. 86-96.
@@ -683,16 +688,23 @@ ISSN: 0272-7757.
 DOI: <a href="https://doi.org/https://doi.org/10.1016/j.econedurev.2017.08.004">https://doi.org/10.1016/j.econedurev.2017.08.004</a>.
 URL: <a href="http://www.sciencedirect.com/science/article/pii/S0272775716304526">http://www.sciencedirect.com/science/article/pii/S0272775716304526</a>.</cite></p>
 
-<p><a id='bib-RN4324'></a><a href="#cite-RN4324">[5]</a><cite>
+<p><a id='bib-RN4324'></a><a href="#cite-RN4324">[4]</a><cite>
 M. M. Holland.
 <em>Divergent pathways to college: Race, class, and inequality in high schools</em>.
 New Brunswick, NJ: Rutgers University Press, 2019.</cite></p>
 
-<p><a id='bib-RN3753'></a><a href="#cite-RN3753">[6]</a><cite>
+<p><a id='bib-RN3753'></a><a href="#cite-RN3753">[5]</a><cite>
 O. Jaquette and B. R. Curs.
 &ldquo;Creating the out-of-state university: Do public universities increase nonresident freshman enrollment in response to declining state appropriations?&rdquo;
 In: <em>Research in Higher Education</em> 56.6 (2015), pp. 535-565.
 ISSN: 0361-0365.</cite></p>
+
+<p><a id='bib-RN3522'></a><a href="#cite-RN3522">[6]</a><cite>
+L. Killgore.
+&ldquo;Merit and Competition in Selective College Admissions&rdquo;.
+In: <em>Review of Higher Education</em> 32.4 (2009), pp. 469-488.
+ISSN: 0162-5748; 1090-7009.
+URL: <a href="%3CGo to ISI%3E://WOS:000266737500002">&lt;Go to ISI&gt;://WOS:000266737500002</a>.</cite></p>
 
 <p><a id='bib-RN4545'></a><a href="#cite-RN4545">[7]</a><cite>
 H. Korzilius.
@@ -702,17 +714,15 @@ In:
 Ed. by A. J. Mills, G. Durepos and E. Wiebe.
 Thousand Oaks: SAGE Publications, Inc., 2010, pp. 760-764.</cite></p>
 
-<p><a id='bib-RN513'></a><a href="#cite-RN513">[8]</a><cite>
+<p><a id='bib-RN1948'></a><a href="#cite-RN1948">[8]</a><cite>
+M. S. McPherson and M. O. Schapiro.
+<em>The student aid game</em>.
+Princeton, NJ: Princeton University Press, 1998.</cite></p>
+
+<p><a id='bib-RN513'></a><a href="#cite-RN513">[9]</a><cite>
 J. W. Meyer and B. Rowan.
 &ldquo;Institutionalized organizations: formal structure as myth and ceremony&rdquo;.
 In: <em>The American Journal of Sociology</em> 83.2 (1977), pp. 340-363.</cite></p>
-
-<p><a id='bib-RN4402'></a><a href="#cite-RN4402">[9]</a><cite>
-R. Noel-Levitz.
-<em>2018 marketing and student recruitment report of effective practices</em>.
-Tech. rep.
-Ruffalo Noel-Levitz, 2018.
-URL: <a href="http://learn.ruffalonl.com/rs/395-EOG-977/images/RNL_2018_Student_Recruitment_Marketing_Report_EM-19.pdf">http://learn.ruffalonl.com/rs/395-EOG-977/images/RNL_2018_Student_Recruitment_Marketing_Report_EM-19.pdf</a>.</cite></p>
 
 <p><a id='bib-RN4549'></a><a href="#cite-RN4549">[10]</a><cite>
 M. Q. Patton.

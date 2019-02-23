@@ -585,6 +585,20 @@ for (i in 1:nrow(univs)) {
 
 ---
 
+# Cross-university results
+## Number of events by type and in-state, out-of-state
+
+<div class="graphs-set graphs-set-all">
+  <div class="comparison-wrapper desc-table count-table">
+```{r, echo=FALSE, results='asis', warning=FALSE}
+cat(paste0(readLines("assets/tables/event_count.htm"),collapse=" "))
+```
+  </div>
+</div>
+<a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
+
+---
+
 # Cross-university results, out-of-state visits
 ## Descriptive statistics for out-of-state visits
 
