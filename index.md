@@ -161,7 +161,6 @@ Theoretical motivation for studying recruiting
 - Enrollment priorities cannot be discerned by policies, rhetoric (e.g., The White House, 2014)
 - Off-campus recruiting is allocation of resources from technical level
     - Knowing which populations targeted by recruiting interventions indicate enrollment priorities
-    - Iron triangle motivates analytic focus on income, race, academic achievement
 
 ---
 
