@@ -321,7 +321,7 @@
   padding: 3px 0;
 }
 
-.count-table table tr:nth-of-type(6) td {
+.count-table table tr:nth-of-type(8) td {
   padding: 6px 25px;
 }
 
@@ -335,6 +335,10 @@
 
 .count-table .header {
   font-weight: 900;
+}
+
+.count-table .row-break td {
+  padding: 0;
 }
 
 .count-table tr:nth-child(2) th {
