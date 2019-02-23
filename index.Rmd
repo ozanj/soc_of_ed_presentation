@@ -75,7 +75,7 @@ Karina Salazar
 Ozan Jaquette
 <p class='affiliation'>University of California, Los Angeles</p>
 
-Crytal Han
+Crystal Han
 <p class='affiliation'>University of California, Los Angeles</p>
 
 <img id='logo_ua' src='assets/img/ua.png' alt='University of Arizona' />
