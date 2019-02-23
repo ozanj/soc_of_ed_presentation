@@ -1,6 +1,6 @@
 ---
 title: "Diamonds or Diamonds in the Rough"
-subtitle: "Using Data Science to Study Off-Campus Recruiting by Public Research Universities"
+subtitle: "Off-Campus Recruiting by Public Research Universities"
 author: Ozan Jaquette
 # lib_cdn: "https://cdn.rawgit.com/ramnathv/slidifyLibraries/master/inst/libraries"
 mode: selfcontained
@@ -20,7 +20,7 @@ csl: ./assets/other/apa.csl
 
 
 # Diamonds or Diamonds in the Rough
-## Using Data Science to Study Off-Campus Recruiting by Public Research Universities
+## Off-Campus Recruiting by Public Research Universities
 
 Karina Salazar
 <p class='affiliation'>University of Arizona</p>
