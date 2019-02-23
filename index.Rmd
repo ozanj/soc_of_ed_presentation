@@ -374,15 +374,15 @@ __N__ refers to total number of off-campus recruiting visits
 <!--
 select mu.univ_id, muc.univ_name, muc.univ_abbrev, mu.state_code, sd.state_name, muc.metro1, msa1.cbsa_title as metro1_name, muc.metro2, msa2.cbsa_title as metro2_name, muc.metro3, msa3.cbsa_title as metro3_name, (
   select count(*)
-	from parsing p
-	left join parsing_visiting_univs pvu on pvu.pid = p.pid
-	left join univ_canon uc on uc.univ_id = pvu.univ_id and uc.pid = pvu.pid
-	left join location_matches lm on lm.pid = p.pid and lm.id_type = 'ncessch'
-	left join location_matches lm2 on lm2.pid = p.pid and lm2.id_type = 'ipeds'
-	left join meta_high_school_public mpub on mpub.ncessch = lm.location_id
+  from parsing p
+  left join parsing_visiting_univs pvu on pvu.pid = p.pid
+  left join univ_canon uc on uc.univ_id = pvu.univ_id and uc.pid = pvu.pid
+  left join location_matches lm on lm.pid = p.pid and lm.id_type = 'ncessch'
+  left join location_matches lm2 on lm2.pid = p.pid and lm2.id_type = 'ipeds'
+  left join meta_high_school_public mpub on mpub.ncessch = lm.location_id
   left join meta_high_school_private mpri on mpri.ncessch = lm.location_id
   left join meta_university imu on imu.univ_id = lm2.location_id
-  where pvu.univ_id = mu.univ_id
+  where pvu.univ_id = if(mu.univ_id not in ('196097', '186380', '201885', '139959', '110653', '166629'), mu.univ_id, concat(mu.univ_id, '_req'))
   and event_country = 'US'
   and event_date between '2017-01-01' and '2017-12-31'
   and uc.univ_canonical_pid is null
