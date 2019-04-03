@@ -1,14 +1,14 @@
 cbsa_code,metro_name,state_code,total_count,pubHS_count,privHS_count,cc_count,other_count
-19100,"Dallas, Fort Worth, Arlington",TX,202,142,48,1,11
-16980,"Chicago, Naperville, Elgin","IL, IN, WI",58,41,6,7,4
+19100,"Dallas, Fort Worth, Arlington",TX,205,145,48,1,11
+16980,"Chicago, Naperville, Elgin","IL, IN, WI",59,42,6,7,4
 26420,"Houston, The Woodlands, Sugar Land",TX,45,25,14,0,6
 30780,"Little Rock, North Little Rock, Conway",AR,41,20,12,0,9
 28140,Kansas City,"MO, KS",40,32,8,0,0
 36420,Oklahoma City,OK,38,24,9,2,3
 46140,Tulsa,OK,37,20,11,0,6
 19740,"Denver, Aurora, Lakewood",CO,34,32,2,0,0
-41180,St. Louis,"MO, IL",32,14,11,3,4
-22220,"Fayetteville, Springdale, Rogers","AR, MO",32,26,4,1,1
+41180,St. Louis,"MO, IL",33,15,11,3,4
+22220,"Fayetteville, Springdale, Rogers","AR, MO",32,27,4,1,0
 12420,"Austin, Round Rock",TX,29,24,4,0,1
 31080,"Los Angeles, Long Beach, Anaheim",CA,29,15,11,1,2
 34980,"Nashville-Davidson, Murfreesboro, Franklin",TN,27,5,18,0,4

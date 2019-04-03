@@ -11,8 +11,8 @@ cbsa_code,metro_name,state_code,total_count,pubHS_count,privHS_count,cc_count,ot
 16700,"Charleston, North Charleston",SC,42,31,6,0,5
 33100,"Miami, Fort Lauderdale, West Palm Beach",FL,42,25,12,0,5
 24860,"Greenville, Anderson, Mauldin",SC,38,24,4,0,10
-14460,"Boston, Cambridge, Newton","MA, NH",36,16,13,0,7
-17140,Cincinnati,"OH, KY, IN",32,19,9,0,4
+14460,"Boston, Cambridge, Newton","MA, NH",35,16,13,0,6
+17140,Cincinnati,"OH, KY, IN",31,18,9,0,4
 19740,"Denver, Aurora, Lakewood",CO,29,23,2,0,4
 26420,"Houston, The Woodlands, Sugar Land",TX,29,17,8,0,4
 18140,Columbus,OH,26,18,5,0,3

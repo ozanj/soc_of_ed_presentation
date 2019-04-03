@@ -5,7 +5,7 @@ cbsa_code,metro_name,state_code,total_count,pubHS_count,privHS_count,cc_count,ot
 40900,"Sacramento, Roseville, Arden-Arcade",CA,41,27,2,6,6
 47900,"Washington, Arlington, Alexandria","DC, VA, MD, WV",39,24,10,0,5
 41940,"San Jose, Sunnyvale, Santa Clara",CA,29,15,2,6,6
-12060,"Atlanta, Sandy Springs, Roswell",GA,28,15,9,0,4
+12060,"Atlanta, Sandy Springs, Roswell",GA,27,15,9,0,3
 16980,"Chicago, Naperville, Elgin","IL, IN, WI",24,16,5,0,3
 35620,"New York, Newark, Jersey City","NY, NJ, PA",19,11,6,1,1
 38060,"Phoenix, Mesa, Scottsdale",AZ,19,10,4,0,5
