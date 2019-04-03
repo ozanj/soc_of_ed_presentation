@@ -587,24 +587,22 @@ for (i in 1:nrow(univs)) {
 # Cross-university results
 ## Number of events by type and in-state, out-of-state
 
-<div class="graphs-set graphs-set-all">
-  <div class="comparison-wrapper desc-table count-table">
+<div class="table-wrapper">
 ```{r, echo=FALSE, results='asis', warning=FALSE}
-cat(paste0(readLines("assets/tables/event_count.htm"),collapse=" "))
+cat(paste0(readLines("assets/tables/event_count.html"),collapse=" "))
 ```
-  </div>
 </div>
 <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
 
 ---
 
 # Cross-university results, out-of-state visits
-## Descriptive statistics for out-of-state visits
+## Descriptive statistics for public high school visits
 
-<div class="graphs-set graphs-set-all">
-  <div class="comparison-wrapper desc-table">
+<div class="table-wrapper">
+  <div class="scroll-wrapper">
 ```{r, echo=FALSE, results='asis', warning=FALSE}
-cat(paste0(readLines("assets/tables/descriptives_outofstate.htm"),collapse=" "))
+cat(paste0(readLines("assets/tables/desc_out_pub.html"),collapse=" "))
 ```
   </div>
   <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
@@ -613,12 +611,12 @@ cat(paste0(readLines("assets/tables/descriptives_outofstate.htm"),collapse=" "))
 ---
 
 # Cross-university results, out-of-state visits
-## Regression: probability of out-of-state public high school receiving a visit
+## Probability of out-of-state public high school receiving a visit
 
-<div class="graphs-set graphs-set-all">
-  <div class="comparison-wrapper reg-wrapper">
-```{r, echo=FALSE, results='asis'}
-cat(paste0(readLines("assets/tables/outofstate_wrse_labeled.htm"),collapse=" "))
+<div class="table-wrapper">
+  <div class="scroll-wrapper">
+```{r, echo=FALSE, results='asis', warning=FALSE}
+cat(paste0(readLines("assets/tables/regression_out.html"),collapse=" "))
 ```
   </div>
   <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
@@ -628,7 +626,21 @@ cat(paste0(readLines("assets/tables/outofstate_wrse_labeled.htm"),collapse=" "))
 ---
 
 # Cross-university results, out-of-state visits
-## Small multiple map of recruiting Visits
+## Descriptive statistics for private high school visits
+
+<div class="table-wrapper">
+  <div class="scroll-wrapper scroll-wrapper-x">
+```{r, echo=FALSE, results='asis', warning=FALSE}
+cat(paste0(readLines("assets/tables/desc_out_priv.html"),collapse=" "))
+```
+  </div>
+</div>
+<a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
+
+---
+
+# Cross-university results, out-of-state visits
+## Small multiple map of recruiting visits
 
 <div class="graphs-set graphs-set-all">
   <div class="graphs-row">
@@ -647,12 +659,12 @@ for (i in 1:nrow(univs)) {
 ---
 
 # Cross-university results, in-state visits
-## Descriptive statistics for in-state visits
+## Descriptive statistics for public high school visits
 
-<div class="graphs-set graphs-set-all">
-  <div class="comparison-wrapper desc-table">
+<div class="table-wrapper">
+  <div class="scroll-wrapper">
 ```{r, echo=FALSE, results='asis', warning=FALSE}
-cat(paste0(readLines("assets/tables/descriptives_instate.htm"),collapse=" "))
+cat(paste0(readLines("assets/tables/desc_in_pub.html"),collapse=" "))
 ```
   </div>
   <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
@@ -663,14 +675,29 @@ cat(paste0(readLines("assets/tables/descriptives_instate.htm"),collapse=" "))
 # Cross-university results, in-state visits
 ## Regression: probability of in-state public high school receiving a visit
 
-<div class="graphs-set graphs-set-all">
-  <div class="comparison-wrapper reg-wrapper">
-```{r, echo=FALSE, results='asis'}
-cat(paste0(readLines("assets/tables/instate_wrse_labeled.htm"),collapse=" "))
+<div class="table-wrapper">
+  <div class="scroll-wrapper">
+```{r, echo=FALSE, results='asis', warning=FALSE}
+cat(paste0(readLines("assets/tables/regression_in.html"),collapse=" "))
 ```
   </div>
   <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
   <p class="footnote">&ast;p<0.05; &ast;&ast;p<0.01; &ast;&ast;&ast;p<0.001; Dependent Variable: Received a recruiting visit (0/1); Robust standard errors in parentheses; Schools that satisfied the following criteria were included in the sample: offers grades 9-12 and enrolls at least ten student in each grade; located in the 50 U.S. states, the District of Columbia, or land regulated by the Bureau of Indian Affairs; is not special education school, an alternative school, or a virtual school.</p>
+</div>
+
+---
+
+# Cross-university results, in-state visits
+## Descriptive statistics for community college visits
+
+<div class="table-wrapper">
+  <div class="scroll-wrapper">
+```{r, echo=FALSE, results='asis', warning=FALSE}
+cat(paste0(readLines("assets/tables/desc_in_cc.html"),collapse=" "))
+```
+  </div>
+  <a class="btn btn-compare" href="#/`r verticalSlide`">Deep-dive results</a>
+  <p class="footnote">We define community college as any public, 2-year or public, less-than 2-year institution, which could be a campus of a Title IV institution.</p>
 </div>
 
 ---
@@ -685,7 +712,7 @@ Out of State Recruiting
 - Disproportionate number of visits to private high schools
 
 In-State Recruiting
-- Variation in coverage of public high schools (e.g., Nebraska=88%; Alabama=32%), community colleges
+- Variation in coverage of public high schools (e.g., Nebraska=88%; Alabama=33%), community colleges
 - Visits largely driven by either achievement or enrollment size
 - Income bias in most cases (but less than out-of-state) even after controlling for "rational" reasons
     - Exceptions: NC State, UC Irvine
