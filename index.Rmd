@@ -381,7 +381,7 @@ select mu.univ_id, muc.univ_name, muc.univ_abbrev, mu.state_code, sd.state_name,
   left join meta_high_school_public mpub on mpub.ncessch = lm.location_id
   left join meta_high_school_private mpri on mpri.ncessch = lm.location_id
   left join meta_university imu on imu.univ_id = lm2.location_id
-  where pvu.univ_id = if(mu.univ_id not in ('196097', '186380', '201885', '139959', '110653', '166629'), mu.univ_id, concat(mu.univ_id, '_req'))
+  where pvu.univ_id = if(mu.univ_id not in ('196097', '186380', '201885', '139959', '110653', '166629', '126614', '155317'), mu.univ_id, concat(mu.univ_id, '_req'))
   and event_country = 'US'
   and event_date between '2017-01-01' and '2017-12-31'
   and uc.univ_canonical_pid is null
